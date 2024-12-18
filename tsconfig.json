@@ -23,7 +23,6 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
-    // Aliases
-    "baseUrl": "./src"
+    "baseUrl": "./",
   }
 }

@@ -1,7 +1,6 @@
 import type { Palette, TwelveHexColorArray, HexColor, RBGColor, PaletteContructor, Palettes } from '../types'
-import { PalettesHex, type PalettesKeys } from './palettes'
 
-class YoruPalette<T extends string> {
+export class YoruPalette<T extends string> {
     palette: Palettes<T>
 
     constructor(palettes: Readonly<PaletteContructor<T>>) {
@@ -41,7 +40,3 @@ class YoruPalette<T extends string> {
         return registeredPalettes as Palettes<T>
     }
 }
-
-const palette = new YoruPalette<PalettesKeys>(PalettesHex)
-
-console.dir(palette.palette.yellow)
