@@ -24,17 +24,6 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
     // Aliases
-    "baseUrl": ".",
-    "paths": {
-      "@type/*": [
-        "types/*"
-      ],
-      "@lib/*": [
-        "lib/*"
-      ],
-      "@src/*": [
-        "src/*"
-      ]
-    }
+    "baseUrl": "./src"
   }
 }

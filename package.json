@@ -14,5 +14,8 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "tsc": "^2.0.4"
+  }
 }

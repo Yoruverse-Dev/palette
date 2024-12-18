@@ -1,5 +1,5 @@
-import type { Palette, TwelveHexColorArray, HexColor, RBGColor, PaletteContructor, Palettes } from '@type/index'
-import { PalettesHex, type PalettesKeys } from 'palettes'
+import type { Palette, TwelveHexColorArray, HexColor, RBGColor, PaletteContructor, Palettes } from '../types'
+import { PalettesHex, type PalettesKeys } from './palettes'
 
 class YoruPalette<T extends string> {
     palette: Palettes<T>
