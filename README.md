@@ -39,7 +39,8 @@ console.log(palette.values.yellow[25].hex)
 
 ## YoruPalette properties
 - `values`: An object containing all the colors and their shades.
-    > [!NOTE] It return hex and rgb values for each shade.
+    > [!NOTE] 
+    > It return hex and rgb values for each shade.
 - `keys`: An array containing all the color names.
 - `version`: The version of the palette.
 
