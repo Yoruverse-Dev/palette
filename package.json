@@ -15,8 +15,5 @@
     "lint": "eslint .",
     "build": "bun build ./index.ts --outdir ./dist && bun lint --fix"
   },
-  "type": "module",
-  "dependencies": {
-    "tsc": "^2.0.4"
-  }
+  "type": "module"
 }
