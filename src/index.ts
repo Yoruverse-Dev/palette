@@ -1,10 +1,13 @@
 import type { Palette, TwelveHexColorArray, HexColor, RBGColor, PaletteContructor, Palettes } from '../types'
 
 export class YoruPalette<T extends string> {
-    palette: Palettes<T>
+    values: Palettes<T>
+    keys: T[]
+    version = '0.0.1'
 
     constructor(palettes: Readonly<PaletteContructor<T>>) {
-        this.palette = this.#registerPalettes(palettes)
+        this.values = this.#registerPalettes(palettes)
+        this.keys = Object.keys(this.values) as T[]
     }
 
     #hexToRgb(hex: string): RBGColor {
